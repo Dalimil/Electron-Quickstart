@@ -2,9 +2,10 @@
 **Simple desktop application using the Electron framework**
 
 ## Setup
-```
+```bash
 # Install dependencies
 npm install
+
 # Run the app
 npm start
 ```
