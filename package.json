@@ -1,0 +1,13 @@
+{
+  "name": "electron-quickstart",
+  "version": "0.1.0",
+  "description": "Electron quickstart application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Dalimil Hajek",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}
