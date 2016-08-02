@@ -8,10 +8,14 @@ npm install
 
 # Run the app
 npm start
+
+# Package it
+npm run-script package
 ```
 
 ## Development
 See for APIs like Menu: https://github.com/electron/electron-api-demos/releases
 
 ### TODO
-- [ ] App packaging into a single executable file with a custom icon
+- [ ] Easy port: NodeJS Web App -> Electron App
+- [ ] Easy port: Static Web Site (or Canvas Game) -> Electron App

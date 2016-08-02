@@ -4,10 +4,12 @@
   "description": "Electron quickstart application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager . DemoApp --platform=darwin,linux --arch=x64 --out ./build --overwrite --icon=./icon.png"
   },
   "author": "Dalimil Hajek",
   "devDependencies": {
+    "electron-packager": "^7.4.0",
     "electron-prebuilt": "^1.2.0"
   }
 }
