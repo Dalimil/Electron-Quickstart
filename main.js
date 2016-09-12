@@ -8,8 +8,14 @@ function createWindow () {
 	// Create the browser window.
 	mainWindow = new BrowserWindow({width: 800, height: 600});
 
-	// and load the index.html of the app.
-	mainWindow.loadURL(`file://${__dirname}/app/index.html`);
+	// STATIC WEBSITE - load index.html file
+	// mainWindow.loadURL(`file://${__dirname}/app-static/index.html`);
+
+	// or DYNAMIC NODE.JS - load localhost
+	require('./app-dynamic/index').listen(8080, function () {
+		console.log('Example Node.js app running on localhost!');
+		mainWindow.loadURL('http://localhost:8080');
+	});
 
 	// Open the DevTools.
 	mainWindow.webContents.openDevTools();
