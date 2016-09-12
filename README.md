@@ -21,7 +21,7 @@ npm run-script package
 ```
 
 ## Integration: NodeJS web app -> Electron App
-1. Replace the `app-dynamic` folder with your node web app
+1. Replace the `app-dynamic` folder with your Node.js web app
 2. Your `main.js` should export the `app` object instead of starting the server itself (see demo)
 
 ## Development
