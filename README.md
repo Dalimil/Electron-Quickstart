@@ -1,5 +1,12 @@
 # Electron-Quickstart
-**Simple desktop application using the Electron framework**
+**Simple desktop application using the Electron framework. It explains how to convert static websites into Electron apps and also how to integrate with Node.JS web app projects.**
+
+## When to use it
+**JavaScript game packaging**: When you create a JavaScript game that would normally be run in a browser but you want it to feel like a native/desktop app. It will also behave the same everywhere because it's using the Chromium + Node.JS core so you don't have to worry about different browser compatibility.
+
+**NPM dependent apps**: Instead of explaining to people that they need to first install Node, then install dependencies, then start the app, you simply give them the executable.
+
+**Simple desktop app**: Simply build cross platform desktop apps with JavaScript, HTML, and CSS.
 
 ## Setup
 ```bash
